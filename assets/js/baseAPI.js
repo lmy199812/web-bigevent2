@@ -20,7 +20,11 @@ $.ajaxPrefilter((options) => {
       // 强制清空 token
       localStorage.removeItem('token');
       // 跳转到登录页面
+<<<<<<< HEAD
       location.href = 'login.html';
+=======
+      location.href = '/login.html';
+>>>>>>> user
     }
   };
 });
